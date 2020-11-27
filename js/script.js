@@ -20,7 +20,7 @@ function studente() {
   }
 
   var message = "<li>Nome: " + studente.nome + ", Cognome: " + studente.cognome + ", Età: " + studente.eta +  "</li>";
-  $(".studenti-list").html( message );
+  $(".studente-list").html( message );
 
   return null;
 };
@@ -77,7 +77,7 @@ function aggiuntaStudente() {
   }
 
   var message = "<li>Nome: " + aggiunto.nome + ", Cognome: " + aggiunto.cognome + ", Età: " + aggiunto.eta + "</li>";
-  $(".studenti-list").append( message );
+  $(".aggiuntaStudente").append( message );
 
   console.log(aggiunto);
 }
