@@ -15,12 +15,12 @@ function studente() {
   }
 
 
-  for ( var i in studente) {
+  for (var i in studente) {
     console.log(studente[i]);
   }
 
-  var message = "<li>Nome: " + studente.nome + ", Cognome: " + studente.cognome + ", Età: " + studente.eta +  "</li>";
-  $(".studente-list").html( message );
+  var message1 = "<li>Nome: " + studente.nome + ", Cognome: " + studente.cognome + ", Età: " + studente.eta +  "</li>";
+  $(".studente-list").html( message1 );
 
   return null;
 };
@@ -47,8 +47,8 @@ function studenti() {
   ]
 
   for (var i in studenti) {
-    var message = "<li>Nome: " + studenti[i].nome + ", Cognome: " + studenti[i].cognome +  "</li>";
-    $(".studenti-list").append( message );
+    var message2 = "<li>Nome: " + studenti[i].nome + ", Cognome: " + studenti[i].cognome +  "</li>";
+    $(".studenti-list").append( message2 );
     console.log(studenti[i]);
   };
 
@@ -78,8 +78,8 @@ function aggiuntaStudente() {
 
   }
 
-  var message = "<li>Nome: " + aggiunto.nome + ", Cognome: " + aggiunto.cognome + ", Età: " + aggiunto.eta + "</li>";
-  $(".aggiuntaStudente").append( message );
+  var message3 = "<li>Nome: " + aggiunto.nome + ", Cognome: " + aggiunto.cognome + ", Età: " + aggiunto.eta + "</li>";
+  $(".aggiuntaStudente").append( message3 );
 
   console.log(aggiunto);
 }
