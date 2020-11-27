@@ -57,7 +57,9 @@ function studenti() {
 
 function aggiuntaStudente() {
 
-  for (var i = 0; i < 1; i++) {
+  var i = 0;
+
+  while (i < 1) {
 
     var nome = prompt("Inserisci il tuo nome");
     var cognome = prompt("Inserisci il tuo cognome");
@@ -69,9 +71,9 @@ function aggiuntaStudente() {
         "cognome" : cognome,
         "eta" : eta
       };
+      i++;
     } else {
       alert("Hai inserito un parametro non valido riprova!");
-      i--;
     }
 
   }
